@@ -40,7 +40,7 @@ export const CartContext = createContext<CartContextProps>({
   checkout: async () => {},
 });
 
-export const CartProvider: React.FC = ({
+export const ContextCartProvider: React.FC = ({
   children,
 }: React.PropsWithChildren<{}>) => {
   const [cartItems, setCartItems] = useState(0);
