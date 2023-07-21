@@ -1,4 +1,4 @@
 [build]
-  command = "pnpm install --store=node_modules/.pnpm-store && pnpm run build"
+  command = "pnpm install --store=node_modules/.pnpm-store && pnpm build"
   publish = "out"
   environment = { PNPM_VERSION = "latest" }
