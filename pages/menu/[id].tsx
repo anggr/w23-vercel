@@ -141,7 +141,7 @@ const DetailMenu: NextComponentType<any, any, ResGetProps> = (props: any) => {
     <div className="max-w-7xl mx-auto p-8">
       <div className="flex flex-col justify-between lg:flex-row gap-16 lg:items-center">
         <div className="flex flex-col gap-3 lg:w-2/4">
-          <Image
+          <img
             src={activeImg}
             alt=""
             className="lg:w-full lg:h-full  aspect-square object-cover rounded-xl"
