@@ -6,7 +6,6 @@ import MenuCard from '@/components/MenuCard';
 import StarRating from 'react-star-rating-component';
 import Link from 'next/link';
 import { getCookie } from '@/libs/cookies';
-import Image from 'next/image';
 import { CartContext } from '../../context/CartContext';
 import { toast } from 'react-toastify';
 
@@ -149,25 +148,25 @@ const DetailMenu: NextComponentType<any, any, ResGetProps> = (props: any) => {
           />
 
           <div className="grid grid-cols-4  gap-4">
-            <Image
+            <img
               src={images.img1}
               alt=""
               className="object-fill w-20 h-20 lg:w-36 lg:h-36 rounded-md cursor-pointer"
               onClick={() => setActiveImage(images.img1)}
             />
-            <Image
+            <img
               src={images.img2}
               alt=""
               className="object-fill w-20 h-20 lg:w-36 lg:h-36 rounded-md cursor-pointer"
               onClick={() => setActiveImage(images.img2)}
             />
-            <Image
+            <img
               src={images.img3}
               alt=""
               className="object-fill w-20 h-20 lg:w-36 lg:h-36 rounded-md cursor-pointer"
               onClick={() => setActiveImage(images.img3)}
             />
-            <Image
+            <img
               src={images.img4}
               alt=""
               className="object-fill w-20 h-20 lg:w-36 lg:h-36 rounded-md cursor-pointer"
