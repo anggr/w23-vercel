@@ -5,7 +5,6 @@ import { CartContext } from '../context/CartContext';
 import { Toast } from 'react-toastify/dist/components';
 import { toast } from 'react-toastify';
 import { checkLogin } from '@/libs/checkLogin';
-import Image from 'next/image';
 interface MenuCardProps {
   id: number;
   name: string;
@@ -36,7 +35,7 @@ const MenuCard: React.FC<MenuCardProps> = ({
   return (
     <div className="w-[270px] h-[320px] bg-neutral-100 rounded-xl overflow-hidden transition shadow hover:shadow-lg">
       {menuImages && menuImages.img1 ? (
-        <Image
+        <img
           className="object-cover w-full h-[160px] rounded-tl-xl rounded-tr-xl"
           src={menuImages.img1}
           alt={name}
