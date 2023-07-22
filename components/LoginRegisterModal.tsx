@@ -60,7 +60,6 @@ export default function LoginModal({ loginAuthCheck }: any) {
           theme: 'colored',
         });
         closeModal();
-        // alert('User logged in successfully!');
       }
     } catch (error) {
       console.error('Error during fetch: ', error);
