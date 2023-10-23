@@ -69,7 +69,7 @@ const MenuPage: React.FC = () => {
   }, []);
   const fetchMenus = async () => {
     try {
-      const response = await fetch('https://w17-wareg.onrender.com/menus');
+      const response = await fetch('https://wareg-be-production.up.railway.app/menus');
       const data = await response.json();
       setMenus(data.menus);
       setFilteredMenus(data.menus);

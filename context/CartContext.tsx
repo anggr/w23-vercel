@@ -90,7 +90,7 @@ export const ContextCartProvider: React.FC<{ children: React.ReactNode }> = ({
 
     try {
       await axios.post(
-        'https://w17-wareg.onrender.com/orders',
+        'https://wareg-be-production.up.railway.app/orders',
         { orderItems },
         {
           headers: {
@@ -133,7 +133,7 @@ export const ContextCartProvider: React.FC<{ children: React.ReactNode }> = ({
     const token = getCookie('token');
     try {
       await axios.post(
-        'https://w17-wareg.onrender.com/orders',
+        'https://wareg-be-production.up.railway.app/orders',
         {
           orderItems: [
             {

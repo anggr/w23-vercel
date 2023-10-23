@@ -15,7 +15,7 @@ const nextConfig = {
       return [
         {
           source: '/:path*',
-          destination: 'https://w17-wareg.onrender.com/:path*',
+          destination: 'https://wareg-be-production.up.railway.app/:path*',
         },
         {
           source: '/:path*',
@@ -30,7 +30,7 @@ const nextConfig = {
 //return [
 //{
 //source: '/:path*',
-//destination: 'https://w17-wareg.onrender.com/:path*',
+//destination: 'https://wareg-be-production.up.railway.app/:path*',
 //},
 //];
 //},
